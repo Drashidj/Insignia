@@ -1,0 +1,336 @@
+body{
+	background-color:#282828;
+	color: #30FBEF;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.white{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+}
+.sec-large-heading{
+font-size: 35px;
+
+}
+.four-large-heading{
+	font-size:250%;
+	
+}
+/*.........................................header.........................................*/
+
+.logo{
+	width: 40px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.Insignia{
+	position: absolute;
+	display: inline-block;
+	margin-left: 7px;
+	margin-top: 20px;
+	font-weight: bold;
+
+}
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+	font-family:'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-right: 40px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+text-decoration: none;
+color: white;
+transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #30FBEF;
+}
+
+/*.........................................top-container.........................................*/
+
+.top-table{
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    border-spacing: 7em 2em;
+}
+
+.top-table p{
+	margin-top: 20px;
+}
+
+
+.large-heading{
+	
+	font-size: 70px;
+}
+.learn-more{
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 200px;
+	background-color: #282828;
+	color: white;
+	font-family:'Josefin Sans', sans-serif;
+}
+.learn-more a{
+	text-decoration: none;
+	color: white;
+}
+
+/*.........................................second-container.......................................*/
+
+.second-container{
+    margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;  
+    background-color: #2E3134;  
+    border-radius: 15px ;  
+    
+}
+.second-container img{
+	margin-right: 100px;
+}
+/*.........................................third-container.........................................*/
+.third-container {
+	 margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;  
+    background-color: #2E3134;  
+    border-radius: 15px ; 
+
+}
+.features-box{
+	background-color:#212121;
+	
+	margin-right: 10px;
+	padding-left: 10px;
+	box-shadow:0 3px 2px #4B5D68;
+	border-radius: 15px;
+	display: inline-block;
+	width: 28%;
+	height: 600px;
+
+}
+
+.features-para{
+	color:#555;
+	font-size:80%;
+	margin-bottom:10px;
+
+}
+
+
+
+.features-icon{
+	width: 150px;
+	margin-left:20%;
+}
+.feature-para{
+	color: white;
+	font-size: 20px;
+}
+.features-box table{
+	padding: 10px;
+}
+.learn-more-2{
+	text-decoration: none;
+	color: #30FBEF;
+}
+
+/*.........................................fourth-container.........................................*/
+
+.fourth-container{
+    margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;  
+    background-color: #2E3134;  
+    border-radius: 15px ; 
+    text-align: left; 
+
+    
+}
+.phone-photo{
+
+	width: 400px;
+
+}
+
+/*.........................................fifth-container.........................................*/
+.fifth-container{
+	  margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;  
+    background-color: #2E3134;  
+    border-radius: 15px ; 
+    text-align: left;
+}
+.testimonial-box{
+	display: inline-block;
+}
+.testimonial-box:first-child{
+	margin-right: 30%;
+}
+blockquote {
+	padding:2%;
+	font-style:italic;
+	line-height: 145%;
+	position:relative;
+	margin-top:40px;
+}
+
+blockquote:before { 
+	content:"\201C"; 
+	display:block;
+	font-size:500%;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+}
+
+cite {
+	display:block;
+	margin-top:25px;
+	font-size:90%;
+	font-weight: normal;
+}
+
+cite img {
+	border-radius:50%;
+	height:20%;
+	vertical-align:middle;
+	margin-right:10px;
+	display: inline-block;
+}
+cite table{
+	border-spacing: 1em 2em;
+
+}
+/*.........................................sixth-container.........................................*/
+.sixth-container{
+	  margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;   
+    border-radius: 15px ; 
+    text-align: left;
+}
+.email-class{
+	margin-left: 100px;
+	width: 100%;
+	
+}
+.email-class-button{
+	margin-left: 100px;
+
+}
+
+/*.........................................seventh-container.........................................*/
+.seventh-container{
+	  margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;   
+    border-radius: 15px ; 
+    text-align: left;
+}
+.request-demo{
+	margin-left: 100px;
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 200px;
+	background-color: #282828;
+	color:#9C69E2;
+	font-family:'Josefin Sans', sans-serif;
+}
+.request-demo a{
+	text-decoration: none;
+}
+
+/*.........................................end-container.........................................*/
+.end-container{
+	  margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 80px;
+    width: 70%;
+    overflow: hidden;     
+    padding: 40px;   ; 
+    text-align: left;
+
+   
+}
+.end-container table{
+	
+	width: 100%;
+
+
+	
+}
+.end-container table tr{
+               
+              
+}
+.end-container table tr th{
+	font-weight: normal;
+}
+.end-container table tr th i{
+	margin-right: 15px;
+	
+}
+.social-icon a{
+text-decoration: none;
+color: #30FBEF;
+}
+.none{list-style-type: none;}
+.end{
+	margin-left: 15%;
+	margin-right: 30%;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+ a{
+	text-decoration: none;
+	color:#30FBEF ;
+	
+}
+/*.........................................Thanks.........................................*/
+
+/*.........................................by Drashi jain.................................*/
